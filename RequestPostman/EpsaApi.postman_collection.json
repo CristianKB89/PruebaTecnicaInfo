@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "711430b7-b053-4716-8c2d-6b61c8d0c6c3",
+		"name": "EpsaApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20746293"
+	},
+	"item": [
+		{
+			"name": "Request1/GetHistoricoPorTramo",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fechaInicial\": \"29-01-2010\",\r\n    \"fechafinal\":\"12-12-2010\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7119/api/Request1/GetHistoricoPorTramo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"Request1",
+						"GetHistoricoPorTramo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request2/GetHistoricoPorConsumoCliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fechaInicial\": \"01-01-2010\",\r\n    \"fechafinal\":\"31-01-2010\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7119/api/Request2/GetHistoricoPorConsumoCliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"Request2",
+						"GetHistoricoPorConsumoCliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request3/GetHistoricoPeoresTramosCliente",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fechaInicial\": \"01-01-2010\",\r\n    \"fechafinal\":\"31-01-2010\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7119/api/Request3/GetHistoricoPeoresTramosCliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7119",
+					"path": [
+						"api",
+						"Request3",
+						"GetHistoricoPeoresTramosCliente"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

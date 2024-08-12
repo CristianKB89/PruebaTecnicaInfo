@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "EpsaApi": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7119"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "--init",
+      "httpPort": 30562,
+      "useSSL": false
+    }
+  }
+}
